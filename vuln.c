@@ -6,7 +6,7 @@ void read_input(char *buf) {
     int i = 0;  // index into buf
     int c;  // character read from stdin
 
-    // read one at a time until newline or end-of-stream
+    // read one char at a time until newline or end-of-stream
     do {
         c = fgetc(stdin);
         buf[i++] = c;
